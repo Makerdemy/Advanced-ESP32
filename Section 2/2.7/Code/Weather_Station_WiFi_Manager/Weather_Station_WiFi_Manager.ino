@@ -1,7 +1,4 @@
-
-#include <WiFi.h>
-#include <DNSServer.h>
-#include <ESP8266WebServer.h>
+#include <FS.h>          
 #include <WiFiManager.h>
 
 #include "DHT.h"
