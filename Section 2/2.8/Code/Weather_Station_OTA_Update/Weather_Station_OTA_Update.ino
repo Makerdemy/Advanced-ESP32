@@ -107,7 +107,7 @@ void setup() {
   display.clear();
   
   wifiManager.autoConnect("ESPCONFIGAP");
-  String ssid = wifiManager.getSSID();
+  String ssid = wifiManager.getWiFiSSID();
  
   display.clear();
   display.drawString(0, 0, "Connected to this WiFi:");
